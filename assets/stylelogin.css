@@ -1,0 +1,104 @@
+body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .hero-image {
+      background-image: url("https://awsimages.detik.net.id/community/media/visual/2019/02/19/089f64e4-c922-4529-bd62-a06bd2f82008.jpeg?w=780&q=90");
+      background-color:#333;
+      height: 570px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    #card {
+      background: grey;
+      border-radius: 0px;
+      box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+      height: 570px;
+      margin: 0rem auto auto 0rem;
+      width: 329px;
+    }
+
+#card-content {
+      padding: 20px 50px;
+}
+#card-title {
+      font-family: "Raleway Thin", sans-serif;
+      letter-spacing: 4px;
+      padding-bottom: 23px;
+      padding-top: 13px;
+      text-align: center;
+}
+a {
+      text-decoration: none;
+  }
+  label {
+      font-family: "Raleway", sans-serif;
+      font-size: 11pt;
+  }
+  .form {
+      align-items: left;
+      display: flex;
+      flex-direction: column;
+  }
+  .form-border {
+      background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+      height: 1px;
+      width: 100%;
+  }
+  .form-content {
+      background: #fbfbfb;
+      border: none;
+      outline: none;
+      padding-top: 14px;
+  }
+  #signup {
+      color: #1f2020;
+      font-family: "Raleway", sans-serif;
+      font-size: 10pt;
+      margin-top: 16px;
+      margin: 0px 90px;
+  }
+  #submit-btn {
+      background: -webkit-linear-gradient(right, #babdb9, #2f3331);
+      border: none;
+      border-radius: 21px;
+      box-shadow: 0px 1px 8px #717572;
+      cursor: pointer;
+      color: white;
+      font-family: "Raleway SemiBold", sans-serif;
+      height: 42.3px;
+      margin: 0 90px;
+      margin-top: 20px;
+      transition: 0.25s;
+      width: 153px;
+  }
+  #submit-btn:hover {
+      box-shadow: 0px 1px 18px #85978a;
+  }
